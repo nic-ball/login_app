@@ -1,5 +1,6 @@
 from selenium import webdriver
 
+
 def before_all(context):
 
     # PhantomJS is used there (headless browser - meaning we can execute tests in a command line environment,

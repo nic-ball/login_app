@@ -4,4 +4,11 @@
 # Pychache
 .__pycache__
 *.pyc
+
+#Pipenv
 pipfile.lock
+
+#Venv
+venv
+pipenv
+ghostdriver.log
