@@ -12,3 +12,7 @@ pipfile.lock
 venv
 pipenv
 ghostdriver.log
+
+
+# Database
+db.sqlite3

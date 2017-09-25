@@ -17,6 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from login import views as login_views
 
+app_name = 'login'
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^login/$', login_views.login_root, name='login_root'),
